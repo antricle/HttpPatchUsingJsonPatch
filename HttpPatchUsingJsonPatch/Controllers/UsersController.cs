@@ -18,7 +18,7 @@ namespace HttpPatchUsingJsonPatch.Controllers
 
         private void PopulateUserProfiles()
         {
-            _userProfiles.Add(new UserProfile { Id = new Guid("29e207ed-1f5b-48e7-957a-b2c2d07164ee"), Name = "Luke Jones", Location = "Tokyo" });
+            _userProfiles.Add(new UserProfile { Id = new Guid("29e207ed-1f5b-48e7-957a-b2c2d07164ee"), Name = "Luke John", Location = "Tokyo" });
             _userProfiles.Add(new UserProfile { Id = new Guid("022e6a50-3c23-4d37-bf83-ebab0b2e091f"), Name = "Amanda Morgans", Location = "New York" });
             _userProfiles.Add(new UserProfile { Id = new Guid("83a041cb-e335-4f8f-b017-1e8cd62db8bf"), Name = "John Saville", Location = "London" });
             _userProfiles.Add(new UserProfile { Id = new Guid("575ee618-8977-43b1-97e7-9561956601e1"), Name = "Dan Lathem", Location = "Edinburgh" });
